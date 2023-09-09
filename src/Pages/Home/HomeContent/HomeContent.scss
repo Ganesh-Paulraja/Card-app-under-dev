@@ -1,0 +1,26 @@
+.home-content {
+  text-align: center;
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    line-height: 1.2;
+  }
+  p {
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 1000px;
+    padding: 0 50px;
+    @media screen and (max-width: 599px) {
+      padding: 0 15px;
+    }
+  }
+  .desk-none-br {
+    display: none;
+    @media screen and (max-width: 999px) {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+$imgOne: url('../../images/banner-mobile/Frame\ 30.png');
+$imgTwo: url('../../images/banner-mobile/Frame\ 31.png');
+$imgThree: url('../../images/banner-mobile/Frame\ 32.png');
+
+.slider-wrapTwo {
+  position: relative;
+  width: 100%;
+  .cc-imgOne, .cc-imgTwo, .cc-imgThree {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+  }
+  .cc-imgOne {
+    background-image: $imgOne;
+  }
+  .cc-imgTwo {
+    background-image: $imgTwo;
+  }
+  .cc-imgThree {
+    background-image: $imgThree;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after {
+    content: '';
+    position: relative;
+  }
+  .swiper-pagination-bullet {
+    background: #8f8d86;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff;
+  }
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span {
+    margin-left: 15px;
+    display: inline-block;
+  }
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal span:first-child {
+    margin-left: 0px;
+  }
+  .swiper-button-next {
+    right: 4px;
+    img {
+      width: 32px;
+    }
+  }
+  .swiper-button-prev {
+    left: 4px;
+    img {
+      width: 32px;
+    }
+  }
+  .cc-overlay {
+    background: #0000003d;
+    color: #fff;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,44 @@
+.best-seller-block {
+    padding-top: 30px;
+    width: 100%;
+    h1 {
+      font-size: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding-top: 20px;
+      padding-bottom: 6px;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .product-wrap {
+      display: flex;
+      justify-content: center;
+      @media screen and (max-width: 599px) {
+        flex-wrap:  wrap;
+        .product {
+          width: 48% !important;
+        }
+      }
+      .product {
+        width: 23%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .shop-btn {
+      text-align: center;
+      button {
+        background: #f2e5e5;
+        width: 280px;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 5px;
+        border: 2px solid #000000;
+        cursor: pointer;
+        margin-top: 12px;
+        margin-bottom: 30px;
+      }
+    }
+  }

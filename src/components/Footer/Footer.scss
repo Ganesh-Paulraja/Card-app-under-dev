@@ -1,0 +1,58 @@
+.footer-wrap {
+  background: #30333c;
+  text-align: center;
+  h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 22px;
+  }
+  .mobile-num {
+    a {
+      font-size: 22px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    img {
+      width: 22px;
+    }
+  }
+  .mail-wrap {
+    padding-top: 20px;
+    a {
+      font-size: 22px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    img {
+      width: 28px;
+    }
+  }
+  .address-wrap {
+    font-size: 23px;
+    color: #fff;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    .qr-wrap {
+      position: absolute;
+      top: -106px;
+      right: -90px;
+      @media screen and (max-width: 900px) {
+        position: static;
+        padding-top: 20px;
+      } 
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .qr-wrap {
+      position: static;
+      padding-top: 20px;
+    }
+  } 
+}
