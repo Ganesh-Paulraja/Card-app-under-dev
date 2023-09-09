@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/card-app/static/css/main.729f5785.css",
+    "main.js": "/card-app/static/js/main.976b5225.js",
+    "static/media/Frame 30.png": "/card-app/static/media/Frame 30.b16dc2ce278a6a424035.png",
+    "static/media/Frame 3.png": "/card-app/static/media/Frame 3.532fcaa4101526fe0edf.png",
+    "static/media/Frame 31.png": "/card-app/static/media/Frame 31.14338dda7becb98be58f.png",
+    "static/media/Frame 4.png": "/card-app/static/media/Frame 4.d18ee17efa087585f0e0.png",
+    "static/media/Frame 5.png": "/card-app/static/media/Frame 5.e33d8a65c192bc5b5008.png",
+    "static/media/Frame 32.png": "/card-app/static/media/Frame 32.16ebf0f0bc7bd54502e7.png",
+    "static/media/Frame 16.png": "/card-app/static/media/Frame 16.e485cabcb35db6fa4397.png",
+    "static/media/Group 12.png": "/card-app/static/media/Group 12.cc543038cade538931c8.png",
+    "static/media/qr.png": "/card-app/static/media/qr.c44ddd312018cc1c273e.png",
+    "static/media/msg.svg": "/card-app/static/media/msg.b8ab1ecdb6f6803738ef8eea68d12c18.svg",
+    "index.html": "/card-app/index.html",
+    "static/media/contact.svg": "/card-app/static/media/contact.77aae30bd696fff14f33b7bd4b1c7962.svg",
+    "main.729f5785.css.map": "/card-app/static/css/main.729f5785.css.map",
+    "main.976b5225.js.map": "/card-app/static/js/main.976b5225.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.729f5785.css",
+    "static/js/main.976b5225.js"
+  ]
+}
